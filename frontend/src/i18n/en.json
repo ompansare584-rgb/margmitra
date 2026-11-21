@@ -1,0 +1,10 @@
+{
+  "appName": "MargMitra",
+  "tagline": "Find a career that fits you",
+  "subtitle": "Based on your interests, skills and education",
+  "cta": "Find my career path",
+  "ctaSoon": "The student flow arrives in Phase 4",
+  "backendChecking": "Checking server...",
+  "backendOnline": "Server connected",
+  "backendOffline": "Server not reachable (tap-chips will still work)"
+}

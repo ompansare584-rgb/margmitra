@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Colours taken from the mock-up: deep green, cream, saffron accent */
+@theme {
+  --color-brand-900: #0b4a3a;
+  --color-brand-700: #0f5a47;
+  --color-brand-100: #dcefe8;
+  --color-cream: #f7f3e8;
+  --color-saffron: #f28c28;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-cream);
+  color: #1d2b27;
+  font-family: 'Noto Sans Devanagari', system-ui, sans-serif;
+}

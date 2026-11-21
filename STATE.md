@@ -1,0 +1,19 @@
+# STATE
+
+Project: MargMitra (मार्गमित्र), Seva First Innovation Challenge 2026, Maharashtra.
+
+## Done
+- Phase 0: skeleton. Vite + React + Tailwind v4 frontend, FastAPI backend with /health, Marathi/English toggle (en.json, mr.json), backend status pill, Noto Sans Devanagari via @fontsource.
+- Deployment files: setup.ps1, start.ps1, backend/.python-version, DEPLOY.md (backend on Render free web service, frontend on Vercel).
+
+## Decisions
+- Tailwind v4 via @tailwindcss/vite; colours in src/index.css under @theme.
+- Frontend runs all deterministic logic later; backend only does /understand, /sessions, /officer/stats, delete.
+- Language saved in localStorage key "lang", default Marathi.
+- Backend allowed origins come from the ALLOWED_ORIGINS environment variable.
+- Hugging Face Docker Spaces are marked Paid, so the backend deploys to Render free (512 MB RAM, sleeps when idle, ephemeral disk). Student data must go to a free hosted Postgres (Neon or Supabase).
+- OPEN QUESTION for Phase 2: torch + sentence-transformers probably will not fit in 512 MB. Decide then between a lightweight matcher (character n-gram TF-IDF plus fuzzy alias matching) and an external embedding service.
+- Backend ping waits up to 60 s because a sleeping free Space is slow to wake.
+
+## Next
+- Phase 1: dataset (skills, careers, career_skills, questions, resources, institutes, schemes) for the 12 careers.
