@@ -17,3 +17,8 @@ Nothing yet. Every URL, course, institute and scheme added later with verified=f
 - [ ] Run backend tests on your PC (command in DEPLOY.md) - the route test must pass; tell me if it fails.
 - [ ] District names/Marathi spellings in data/districts.csv (Ahilyanagar, Chhatrapati Sambhajinagar, Dharashiv are the new official names - confirm).
 - [ ] Privacy text for the app: lawyer/teacher review before real students use it (DPDP Act).
+
+## Phase 4 checks (user)
+- [ ] Run `.\start.ps1`, open http://localhost:5173 on laptop AND phone (same Wi-Fi, use laptop IP:5173) and click through everything once. Send me screenshots of anything ugly or broken.
+- [ ] Marathi UI text in src/i18n/mr.json read by a Marathi speaker.
+- [ ] Try on a real student/friend; note where they get stuck.

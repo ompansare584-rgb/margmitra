@@ -38,3 +38,11 @@ Project: MargMitra (मार्गमित्र), Seva First Innovation Chall
 - frontend/src/api.js: saveSession, deleteSession, getOfficerStats.
 - Tests: 12 core tests pass (python -m unittest); 1 route test needs fastapi+httpx, skipped here.
 - Next: Phase 4 (student UI).
+
+## Phase 4 - student UI (done)
+- Flow: Welcome -> Profile (education, district, age, interests) -> Skills (free text matcher + search + level 1-3) -> optional Quiz (3 Qs per skill, max 5 skills; level set from answers) -> Results (top 5 / all careers, fit %, gaps, learn links, schemes, anonymous share with consent, delete my data).
+- Files: src/App.jsx, src/components/{Welcome,Profile,Skills,Quiz,Results,ui}.jsx, src/lib/{i18n,store}.js, i18n en/mr (94 keys each).
+- Tested in a real browser (bundled with esbuild, Playwright, 390px wide): full flow in English, Marathi toggle, reload keeps language, consent gating, under-18 parental box, graceful failure with server offline. NOT checked: Tailwind styling/looks (Tailwind not available in my sandbox), Vite build.
+- Quiz rule: a tested skill's level = quiz result (0-3), replacing the self-rating. 0/3 correct = level 0.
+- Skills without questions (only 30 have) keep the self-rating.
+- Next: Phase 5 (8-week plan + checkpoints).
