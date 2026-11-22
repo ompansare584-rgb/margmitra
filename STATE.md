@@ -17,3 +17,8 @@ Project: MargMitra (मार्गमित्र), Seva First Innovation Chall
 
 ## Next
 - Phase 1: dataset (skills, careers, career_skills, questions, resources, institutes, schemes) for the 12 careers.
+
+## Phase 1 - dataset (done)
+- data/*.csv created; scripts/build_data.mjs validates and writes frontend/src/data/data.json (passes).
+- 123 skills, 12 careers, 191 links, 90 questions, 60 resource placeholders, 4 schemes, 0 institutes.
+- Next: Phase 2 (scoring + matcher + tests).

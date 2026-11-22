@@ -1,0 +1,61 @@
+﻿id,skill_id,title_en,title_mr,provider,url,cost,verified
+r001,basic_electricity,Search 'Basic Electricity' on SWAYAM,SWAYAM वर 'विजेची मूलभूत माहिती' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r002,basic_electricity,Search 'Basic Electricity' on NIMI,NIMI वर 'विजेची मूलभूत माहिती' शोधा,NIMI,https://nimi.gov.in,free,false
+r003,basic_electronics,Search 'Basic Electronics' on NIMI,NIMI वर 'बेसिक इलेक्ट्रॉनिक्स' शोधा,NIMI,https://nimi.gov.in,free,false
+r004,basic_electronics,Search 'Basic Electronics' on SWAYAM,SWAYAM वर 'बेसिक इलेक्ट्रॉनिक्स' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r005,basic_maths,Search 'Basic Maths' on SWAYAM,SWAYAM वर 'बेसिक गणित' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r006,basic_maths,Search 'Basic Maths' on NIMI,NIMI वर 'बेसिक गणित' शोधा,NIMI,https://nimi.gov.in,free,false
+r007,billing_pos,Search 'Billing and POS' on NIMI,NIMI वर 'बिलिंग व पीओएस' शोधा,NIMI,https://nimi.gov.in,free,false
+r008,billing_pos,Search 'Billing and POS' on SWAYAM,SWAYAM वर 'बिलिंग व पीओएस' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r009,brake_systems,Search 'Brake Systems' on SWAYAM,SWAYAM वर 'ब्रेक यंत्रणा' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r010,brake_systems,Search 'Brake Systems' on NIMI,NIMI वर 'ब्रेक यंत्रणा' शोधा,NIMI,https://nimi.gov.in,free,false
+r011,cash_handling,Search 'Cash Handling' on NIMI,NIMI वर 'रोख व्यवहार' शोधा,NIMI,https://nimi.gov.in,free,false
+r012,cash_handling,Search 'Cash Handling' on SWAYAM,SWAYAM वर 'रोख व्यवहार' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r013,communication,Search 'Communication' on SWAYAM,SWAYAM वर 'संवाद कौशल्य' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r014,communication,Search 'Communication' on NIMI,NIMI वर 'संवाद कौशल्य' शोधा,NIMI,https://nimi.gov.in,free,false
+r015,customer_service,Search 'Customer Service' on NIMI,NIMI वर 'ग्राहक सेवा' शोधा,NIMI,https://nimi.gov.in,free,false
+r016,customer_service,Search 'Customer Service' on SWAYAM,SWAYAM वर 'ग्राहक सेवा' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r017,digital_literacy,Search 'Digital Literacy' on SWAYAM,SWAYAM वर 'डिजिटल साक्षरता' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r018,digital_literacy,Search 'Digital Literacy' on NIMI,NIMI वर 'डिजिटल साक्षरता' शोधा,NIMI,https://nimi.gov.in,free,false
+r019,electrical_safety,Search 'Electrical Safety' on NIMI,NIMI वर 'विद्युत सुरक्षा' शोधा,NIMI,https://nimi.gov.in,free,false
+r020,electrical_safety,Search 'Electrical Safety' on SWAYAM,SWAYAM वर 'विद्युत सुरक्षा' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r021,engine_basics,Search 'Engine Basics' on SWAYAM,SWAYAM वर 'इंजिन मूलभूत' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r022,engine_basics,Search 'Engine Basics' on NIMI,NIMI वर 'इंजिन मूलभूत' शोधा,NIMI,https://nimi.gov.in,free,false
+r023,english_basic,Search 'Basic English' on NIMI,NIMI वर 'बेसिक इंग्रजी' शोधा,NIMI,https://nimi.gov.in,free,false
+r024,english_basic,Search 'Basic English' on SWAYAM,SWAYAM वर 'बेसिक इंग्रजी' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r025,first_aid,Search 'First Aid' on SWAYAM,SWAYAM वर 'प्रथमोपचार' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r026,first_aid,Search 'First Aid' on NIMI,NIMI वर 'प्रथमोपचार' शोधा,NIMI,https://nimi.gov.in,free,false
+r027,hand_tools,Search 'Using Hand Tools' on NIMI,NIMI वर 'हत्यारे वापरणे' शोधा,NIMI,https://nimi.gov.in,free,false
+r028,hand_tools,Search 'Using Hand Tools' on SWAYAM,SWAYAM वर 'हत्यारे वापरणे' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r029,html_css,Search 'HTML and CSS' on SWAYAM,SWAYAM वर 'एचटीएमएल व सीएसएस' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r030,html_css,Search 'HTML and CSS' on NIMI,NIMI वर 'एचटीएमएल व सीएसएस' शोधा,NIMI,https://nimi.gov.in,free,false
+r031,hygiene_infection_control,Search 'Hygiene and Infection Control' on NIMI,NIMI वर 'स्वच्छता व संसर्ग नियंत्रण' शोधा,NIMI,https://nimi.gov.in,free,false
+r032,hygiene_infection_control,Search 'Hygiene and Infection Control' on SWAYAM,SWAYAM वर 'स्वच्छता व संसर्ग नियंत्रण' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r033,javascript_basics,Search 'JavaScript Basics' on SWAYAM,SWAYAM वर 'जावास्क्रिप्ट मूलभूत' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r034,javascript_basics,Search 'JavaScript Basics' on NIMI,NIMI वर 'जावास्क्रिप्ट मूलभूत' शोधा,NIMI,https://nimi.gov.in,free,false
+r035,measuring_tools,Search 'Measuring Tools' on NIMI,NIMI वर 'मोजमाप साधने' शोधा,NIMI,https://nimi.gov.in,free,false
+r036,measuring_tools,Search 'Measuring Tools' on SWAYAM,SWAYAM वर 'मोजमाप साधने' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r037,ms_excel,Search 'MS Excel' on SWAYAM,SWAYAM वर 'एमएस एक्सेल' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r038,ms_excel,Search 'MS Excel' on NIMI,NIMI वर 'एमएस एक्सेल' शोधा,NIMI,https://nimi.gov.in,free,false
+r039,multimeter_use,Search 'Using a Multimeter' on NIMI,NIMI वर 'मल्टीमीटर वापरणे' शोधा,NIMI,https://nimi.gov.in,free,false
+r040,multimeter_use,Search 'Using a Multimeter' on SWAYAM,SWAYAM वर 'मल्टीमीटर वापरणे' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r041,networking_basics,Search 'Networking Basics' on SWAYAM,SWAYAM वर 'नेटवर्किंग मूलभूत' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r042,networking_basics,Search 'Networking Basics' on NIMI,NIMI वर 'नेटवर्किंग मूलभूत' शोधा,NIMI,https://nimi.gov.in,free,false
+r043,problem_solving,Search 'Problem Solving' on NIMI,NIMI वर 'समस्या सोडवणे' शोधा,NIMI,https://nimi.gov.in,free,false
+r044,problem_solving,Search 'Problem Solving' on SWAYAM,SWAYAM वर 'समस्या सोडवणे' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r045,site_safety,Search 'Construction Site Safety' on SWAYAM,SWAYAM वर 'बांधकाम सुरक्षा' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r046,site_safety,Search 'Construction Site Safety' on NIMI,NIMI वर 'बांधकाम सुरक्षा' शोधा,NIMI,https://nimi.gov.in,free,false
+r047,soldering,Search 'Soldering' on NIMI,NIMI वर 'सोल्डरिंग' शोधा,NIMI,https://nimi.gov.in,free,false
+r048,soldering,Search 'Soldering' on SWAYAM,SWAYAM वर 'सोल्डरिंग' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r049,technical_drawing,Search 'Technical Drawing' on SWAYAM,SWAYAM वर 'तांत्रिक आरेखन' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r050,technical_drawing,Search 'Technical Drawing' on NIMI,NIMI वर 'तांत्रिक आरेखन' शोधा,NIMI,https://nimi.gov.in,free,false
+r051,troubleshooting_pc,Search 'PC Troubleshooting' on NIMI,NIMI वर 'पीसी समस्या निवारण' शोधा,NIMI,https://nimi.gov.in,free,false
+r052,troubleshooting_pc,Search 'PC Troubleshooting' on SWAYAM,SWAYAM वर 'पीसी समस्या निवारण' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r053,typing_skills,Search 'Typing' on SWAYAM,SWAYAM वर 'टायपिंग' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r054,typing_skills,Search 'Typing' on NIMI,NIMI वर 'टायपिंग' शोधा,NIMI,https://nimi.gov.in,free,false
+r055,vitals_measurement,Search 'Measuring Vital Signs' on NIMI,NIMI वर 'महत्त्वाची लक्षणे मोजणे' शोधा,NIMI,https://nimi.gov.in,free,false
+r056,vitals_measurement,Search 'Measuring Vital Signs' on SWAYAM,SWAYAM वर 'महत्त्वाची लक्षणे मोजणे' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r057,welding_safety,Search 'Welding Safety' on SWAYAM,SWAYAM वर 'वेल्डिंग सुरक्षा' शोधा,SWAYAM,https://swayam.gov.in,free,false
+r058,welding_safety,Search 'Welding Safety' on NIMI,NIMI वर 'वेल्डिंग सुरक्षा' शोधा,NIMI,https://nimi.gov.in,free,false
+r059,wiring,Search 'Wiring' on NIMI,NIMI वर 'वायरिंग' शोधा,NIMI,https://nimi.gov.in,free,false
+r060,wiring,Search 'Wiring' on SWAYAM,SWAYAM वर 'वायरिंग' शोधा,SWAYAM,https://swayam.gov.in,free,false

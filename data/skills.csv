@@ -1,0 +1,124 @@
+﻿id,name_en,name_mr,aliases_en,aliases_mr,category
+english_basic,Basic English,बेसिक इंग्रजी,english speaking;english reading,इंग्रजी बोलणे;इंग्रजी वाचणे;english bolne,foundation
+digital_literacy,Digital Literacy,डिजिटल साक्षरता,smartphone use;internet basics;online forms,मोबाईल वापर;ऑनलाइन फॉर्म;computer chalvne,foundation
+basic_maths,Basic Maths,बेसिक गणित,arithmetic;percentage;calculation,गणित;बेरीज वजाबाकी;ganit,foundation
+communication,Communication,संवाद कौशल्य,speaking;talking to people,बोलणे;संवाद;sanvad,foundation
+problem_solving,Problem Solving,समस्या सोडवणे,logical thinking;finding solutions,अडचण सोडवणे;तर्क;samasya sodvne,foundation
+teamwork,Teamwork,सांघिक काम,working in a team;cooperation,टीमने काम;सहकार्य;team madhe kaam,soft
+time_management,Time Management,वेळेचे नियोजन,punctuality;meeting deadlines,वेळ पाळणे;वेळेचे नियोजन;vel palne,soft
+attention_to_detail,Attention to Detail,बारकाईने काम,accuracy;careful work,अचूकता;काळजीपूर्वक काम;barkai,soft
+work_discipline,Work Discipline,कामातील शिस्त,discipline;reliability;following rules,शिस्त;नियम पाळणे;shist,soft
+leadership_basic,Basic Leadership,नेतृत्व कौशल्य,leading a team;supervising helpers,टीम सांभाळणे;नेतृत्व;netrutva,soft
+basic_electricity,Basic Electricity,विजेची मूलभूत माहिती,voltage current resistance;ohm's law,व्होल्टेज करंट;वीज;vij;ohm cha niyam,technical
+electrical_safety,Electrical Safety,विद्युत सुरक्षा,shock prevention;lockout tagout;safe working,विजेचा धक्का टाळणे;सुरक्षा;vij suraksha,technical
+wiring,Wiring,वायरिंग,house wiring;wire joints,तार जोडणी;वायरिंग;taar jodni,technical
+multimeter_use,Using a Multimeter,मल्टीमीटर वापरणे,testing voltage;continuity test;measure current,मल्टीमीटर;व्होल्टेज तपासणे;multimeter vaparne,technical
+circuit_diagrams,Reading Circuit Diagrams,सर्किट डायग्राम वाचणे,schematics;wiring diagram,सर्किट आकृती;नकाशा वाचणे;circuit diagram vachne,technical
+earthing,Earthing,अर्थिंग,grounding;earth pit,अर्थिंग;जमिनीशी जोडणी;earthing karne,technical
+mcb_db_boards,MCB and DB Boards,एमसीबी व डीबी बोर्ड,distribution board;circuit breaker;fuse,एमसीबी;फ्यूज;db board,technical
+domestic_wiring,Domestic Wiring,घरगुती वायरिंग,home wiring;switch board fitting,घराची वायरिंग;स्विच बोर्ड;ghar wiring,technical
+motor_basics,Electric Motor Basics,इलेक्ट्रिक मोटर मूलभूत,pump motor;induction motor;motor repair,मोटर;पंप मोटर;motor durusti,technical
+motor_winding,Motor Winding,मोटर वाइंडिंग,rewinding;coil winding,वाइंडिंग;कॉइल गुंडाळणे;motor winding,technical
+transformer_basics,Transformer Basics,ट्रान्सफॉर्मर मूलभूत,step up step down;transformer maintenance,ट्रान्सफॉर्मर;transformer,technical
+ac_dc_theory,AC and DC Theory,एसी व डीसी सिद्धांत,alternating current;direct current;three phase,एसी डीसी;तीन फेज;3 phase,technical
+switchgear_basics,Switchgear Basics,स्विचगिअर मूलभूत,contactor;relay;isolator,कॉन्टॅक्टर;रिले;switchgear,technical
+solar_basics,Solar Panel Basics,सौर पॅनल मूलभूत,solar installation;solar rooftop,सोलर;सौर ऊर्जा;solar lavne,technical
+inverter_ups,Inverter and UPS,इन्व्हर्टर व यूपीएस,battery backup;inverter repair,इन्व्हर्टर;बॅटरी;inverter durusti,technical
+cable_laying,Cable Laying,केबल टाकणे,underground cable;cable termination,केबल;केबल जोडणी;cable takne,technical
+electrical_fault_finding,Electrical Fault Finding,विद्युत बिघाड शोधणे,short circuit;tripping;fault tracing,शॉर्ट सर्किट;बिघाड शोधणे;bighad shodhne,technical
+panel_wiring,Control Panel Wiring,कंट्रोल पॅनल वायरिंग,starter panel;panel assembly,पॅनल वायरिंग;स्टार्टर;panel wiring,technical
+basic_electronics,Basic Electronics,बेसिक इलेक्ट्रॉनिक्स,resistor capacitor diode;transistor,रेझिस्टर कॅपेसिटर;इलेक्ट्रॉनिक्स;electronics,technical
+soldering,Soldering,सोल्डरिंग,soldering iron;desoldering,सोल्डरिंग;सोल्डर करणे;soldering karne,technical
+pcb_basics,PCB Basics,पीसीबी मूलभूत,circuit board;pcb repair,सर्किट बोर्ड;पीसीबी;pcb,technical
+electronic_components,Electronic Components,इलेक्ट्रॉनिक घटक,identify components;ic chips,घटक ओळखणे;आयसी;components olakhne,technical
+sensors_basics,Sensors Basics,सेन्सर मूलभूत,temperature sensor;proximity sensor,सेन्सर;sensor,technical
+microcontroller_basics,Microcontroller Basics,मायक्रोकंट्रोलर मूलभूत,arduino;embedded basics,अरडुइनो;arduino;microcontroller,technical
+digital_electronics,Digital Electronics,डिजिटल इलेक्ट्रॉनिक्स,logic gates;binary,लॉजिक गेट;digital electronics,technical
+electronics_testing,Electronics Testing,इलेक्ट्रॉनिक्स चाचणी,oscilloscope;testing circuits,चाचणी;ऑसिलोस्कोप;electronics testing,technical
+hand_tools,Using Hand Tools,हत्यारे वापरणे,spanner;hammer;pliers;screwdriver,पाना;हातोडा;पक्कड;hatyare,technical
+measuring_tools,Measuring Tools,मोजमाप साधने,vernier caliper;micrometer;steel rule,व्हर्नियर;मायक्रोमीटर;mojmap,technical
+technical_drawing,Technical Drawing,तांत्रिक आरेखन,engineering drawing;blueprint reading,ड्रॉइंग वाचणे;आरेखन;drawing vachne,technical
+filing_fitting,Filing and Fitting,फायलिंग व फिटिंग,filing;hacksaw;marking,रेती मारणे;फिटिंग;fitting,technical
+drilling,Drilling,ड्रिलिंग,drill machine;boring holes,ड्रिल मशीन;छिद्र पाडणे;drilling,technical
+lathe_basics,Lathe Machine Basics,लेथ मशीन मूलभूत,turning;lathe operation,लेथ;टर्निंग;lathe machine,technical
+milling_basics,Milling Machine Basics,मिलिंग मशीन मूलभूत,milling;slot cutting,मिलिंग;milling machine,technical
+grinding,Grinding,ग्राइंडिंग,bench grinder;surface grinding,ग्राइंडर;grinding,technical
+cnc_basics,CNC Basics,सीएनसी मूलभूत,cnc programming;g code,सीएनसी;cnc machine,technical
+bearings_gears,Bearings and Gears,बेअरिंग व गिअर,gear box;bearing replacement,बेअरिंग;गिअर;bearing badalne,technical
+lubrication,Lubrication,वंगण देणे,greasing;oil change;lubricants,ग्रीस;तेल;vangan,technical
+sheet_metal,Sheet Metal Work,पत्रा काम,sheet cutting;bending,पत्रा;patra kaam,technical
+fasteners_threads,Fasteners and Threads,नट बोल्ट व दात्या,nuts bolts;thread cutting,नट बोल्ट;दात्या;nut bolt,technical
+maintenance_basic,Basic Machine Maintenance,मशीन देखभाल,preventive maintenance;machine repair,देखभाल;मशीन दुरुस्ती;maintenance,technical
+welding_safety,Welding Safety,वेल्डिंग सुरक्षा,welding helmet;ppe;fire safety,वेल्डिंग सुरक्षा;हेल्मेट;welding suraksha,technical
+arc_welding,Arc Welding,आर्क वेल्डिंग,electrode welding;stick welding,आर्क वेल्डिंग;इलेक्ट्रोड;arc welding,technical
+gas_welding,Gas Welding,गॅस वेल्डिंग,oxy acetylene;brazing,गॅस वेल्डिंग;gas welding,technical
+mig_tig_basics,MIG and TIG Basics,मिग व टिग वेल्डिंग,mig welding;tig welding,मिग;टिग;mig tig,technical
+weld_inspection,Weld Inspection,वेल्ड तपासणी,weld defects;visual inspection,वेल्ड तपासणे;weld tapasni,technical
+metal_cutting,Metal Cutting,धातू कापणे,gas cutting;plasma cutting;gas cutter,गॅस कटिंग;धातू कापणे;gas cutting,technical
+engine_basics,Engine Basics,इंजिन मूलभूत,petrol diesel engine;four stroke,इंजिन;चार स्ट्रोक;engine,technical
+brake_systems,Brake Systems,ब्रेक यंत्रणा,disc brake;drum brake;brake pad,ब्रेक;ब्रेक पॅड;brake,technical
+suspension_steering,Suspension and Steering,सस्पेन्शन व स्टिअरिंग,shock absorber;wheel alignment,सस्पेन्शन;स्टिअरिंग;suspension,technical
+transmission_clutch,Transmission and Clutch,ट्रान्समिशन व क्लच,gearbox;clutch plate,क्लच;गिअरबॉक्स;clutch,technical
+auto_electrical,Automobile Electrical,वाहन विद्युत यंत्रणा,battery;alternator;self starter,बॅटरी;सेल्फ स्टार्टर;gadi battery,technical
+vehicle_servicing,Vehicle Servicing,वाहन सर्व्हिसिंग,periodic service;oil filter,सर्व्हिसिंग;गाडी सर्व्हिस;servicing,technical
+tyre_wheel_care,Tyre and Wheel Care,टायर व चाक देखभाल,puncture repair;wheel balancing,टायर;पंक्चर;tyre,technical
+fuel_systems,Fuel Systems,इंधन यंत्रणा,fuel injection;carburettor,इंधन;कार्बोरेटर;fuel system,technical
+vehicle_diagnostics,Vehicle Diagnostics,वाहन तपासणी,obd scanner;fault codes,डायग्नोस्टिक;स्कॅनर;vehicle checkup,technical
+site_safety,Construction Site Safety,बांधकाम सुरक्षा,helmet;scaffolding safety;ppe,सुरक्षा;हेल्मेट;site suraksha,technical
+reading_site_drawings,Reading Site Drawings,साइट ड्रॉइंग वाचणे,plan reading;building plan,नकाशा वाचणे;बांधकाम नकाशा;plan vachne,technical
+surveying_basics,Surveying Basics,सर्वेक्षण मूलभूत,levelling;total station;chain survey,सर्वे;लेव्हल;survey,technical
+concrete_basics,Concrete Basics,काँक्रीट मूलभूत,cement mix;curing;rcc,काँक्रीट;सिमेंट;concrete,technical
+masonry,Masonry,गवंडीकाम,brick work;plastering,विटांचे काम;प्लास्टर;gavandi kaam,technical
+bar_bending,Bar Bending,बार बेंडिंग,steel reinforcement;rebar,सळई वाकवणे;बार बेंडिंग;bar bending,technical
+quantity_estimation,Quantity Estimation,प्रमाण अंदाज,estimation;measurement book;bill of quantities,अंदाजपत्रक;estimation,technical
+site_supervision,Site Supervision,साइट पर्यवेक्षण,supervising workers;daily progress,साइट सुपरवायझर;देखरेख;supervisor,technical
+plumbing_basics,Plumbing Basics,प्लंबिंग मूलभूत,pipe fitting;water line,नळ फिटिंग;पाईप;plumbing,technical
+material_knowledge,Construction Materials,बांधकाम साहित्य,cement sand aggregate;material testing,साहित्य;सिमेंट वाळू;material,technical
+typing_skills,Typing,टायपिंग,typing speed;english typing;marathi typing,टायपिंग;मराठी टायपिंग;typing speed,technical
+ms_word,MS Word,एमएस वर्ड,word processing;documents,वर्ड;ms word,technical
+ms_excel,MS Excel,एमएस एक्सेल,spreadsheet;formulas;vlookup,एक्सेल;excel;sheet,technical
+ms_powerpoint,MS PowerPoint,एमएस पॉवरपॉइंट,presentation;slides,पॉवरपॉइंट;ppt;slides banvne,technical
+email_etiquette,Email Writing,ईमेल लेखन,professional email;gmail,ईमेल;email lihine,technical
+data_entry_accuracy,Data Entry Accuracy,डेटा एंट्री अचूकता,data entry;form filling,डेटा एंट्री;data entry,technical
+filing_records,Filing and Records,फाइलिंग व नोंदी,record keeping;document filing,फाइल लावणे;नोंदी;filing,technical
+tally_basics,Tally Basics,टॅली मूलभूत,tally prime;gst entries,टॅली;tally,technical
+basic_accounting,Basic Accounting,बेसिक अकाउंटिंग,bookkeeping;ledger;voucher,हिशोब;खातेवही;accounting,technical
+internet_search,Internet Search,इंटरनेट शोध,google search;finding information online,इंटरनेटवर शोधणे;google search,technical
+office_etiquette,Office Etiquette,ऑफिस शिष्टाचार,professional behaviour;workplace manners,ऑफिस वर्तन;शिष्टाचार;office etiquette,technical
+html_css,HTML and CSS,एचटीएमएल व सीएसएस,web page design;styling;html,वेबपेज;html css,technical
+javascript_basics,JavaScript Basics,जावास्क्रिप्ट मूलभूत,js;dom;web scripting,जावास्क्रिप्ट;javascript,technical
+responsive_design,Responsive Design,रिस्पॉन्सिव्ह डिझाइन,mobile friendly;media queries;flexbox,मोबाईल फ्रेंडली;responsive,technical
+git_basics,Git and GitHub,गिट व गिटहब,version control;github;commit,गिट;github,technical
+react_basics,React Basics,रिअॅक्ट मूलभूत,react js;components;hooks,रिअॅक्ट;react,technical
+apis_basics,APIs Basics,एपीआय मूलभूत,rest api;fetch;json,एपीआय;api,technical
+databases_sql,Databases and SQL,डेटाबेस व एसक्यूएल,mysql;queries;tables,डेटाबेस;sql,technical
+python_basics,Python Basics,पायथन मूलभूत,python programming;coding,पायथन;python;coding,technical
+debugging,Debugging,डीबगिंग,fixing code errors;console errors,चुका शोधणे;debugging,technical
+web_hosting_basics,Web Hosting Basics,वेब होस्टिंग मूलभूत,deploy website;domain;vercel,वेबसाइट अपलोड;hosting,technical
+troubleshooting_pc,PC Troubleshooting,पीसी समस्या निवारण,computer not starting;slow computer,कॉम्प्युटर बंद;संगणक दुरुस्ती;computer dusti,technical
+os_installation,Operating System Installation,ओएस इन्स्टॉलेशन,windows install;format computer,विंडोज टाकणे;format karne,technical
+hardware_assembly,Computer Hardware Assembly,कॉम्प्युटर हार्डवेअर जोडणी,ram;hard disk;motherboard,रॅम;हार्डडिस्क;pc assemble,technical
+networking_basics,Networking Basics,नेटवर्किंग मूलभूत,wifi;router;ip address;lan,वायफाय;राउटर;network,technical
+printer_support,Printer Support,प्रिंटर सपोर्ट,printer repair;scanner,प्रिंटर;printer dusti,technical
+ticketing_basics,Ticketing Basics,तिकीट प्रणाली मूलभूत,helpdesk ticket;issue tracking,तक्रार नोंद;ticket,technical
+remote_support,Remote Support,रिमोट सपोर्ट,anydesk;remote desktop;teamviewer,रिमोट;anydesk,technical
+malware_safety,Malware and Virus Safety,व्हायरस सुरक्षा,antivirus;phishing;cyber safety,व्हायरस;अँटीव्हायरस;virus,technical
+backup_recovery,Backup and Recovery,बॅकअप व रिकव्हरी,data backup;file recovery,बॅकअप;डेटा परत मिळवणे;backup,technical
+hygiene_infection_control,Hygiene and Infection Control,स्वच्छता व संसर्ग नियंत्रण,hand washing;sterilisation;ppe,हात धुणे;निर्जंतुकीकरण;swachhata,technical
+first_aid,First Aid,प्रथमोपचार,bandaging;cpr;wound care,प्रथमोपचार;पट्टी बांधणे;pratham upchar,technical
+vitals_measurement,Measuring Vital Signs,महत्त्वाची लक्षणे मोजणे,blood pressure;pulse;temperature;spo2,बीपी;नाडी;ताप;bp tapasne,technical
+patient_handling,Patient Handling,रुग्ण हाताळणी,patient transfer;patient care,रुग्णसेवा;रुग्ण हलवणे;rugna seva,technical
+medical_terms_basic,Basic Medical Terms,वैद्यकीय संज्ञा,medical vocabulary;prescription reading,वैद्यकीय शब्द;medical terms,technical
+sample_handling,Sample Handling,नमुना हाताळणी,blood sample;lab sample labelling,नमुना;लॅब;sample,technical
+medication_safety,Medication Safety,औषध सुरक्षा,medicine storage;dosage reading,औषध;डोस;aushadh,technical
+record_keeping_health,Patient Records,रुग्ण नोंदी,hospital records;case sheet,रुग्ण नोंद;केस पेपर;patient record,technical
+emergency_response,Emergency Response,आपत्कालीन प्रतिसाद,ambulance;emergency handling,आपत्कालीन;इमर्जन्सी;emergency,technical
+customer_service,Customer Service,ग्राहक सेवा,helping customers;shop counter,ग्राहक सेवा;दुकान;grahak seva,technical
+billing_pos,Billing and POS,बिलिंग व पीओएस,billing software;gst bill;pos machine,बिल बनवणे;बिलिंग;billing,technical
+cash_handling,Cash Handling,रोख व्यवहार,cash counting;daily cash report,रोख;कॅश;cash,technical
+product_knowledge,Product Knowledge,उत्पादन माहिती,knowing products;features and prices,उत्पादन माहिती;product mahiti,technical
+inventory_stock,Inventory and Stock,साठा व्यवस्थापन,stock count;stock register,माल;स्टॉक;stock,technical
+visual_merchandising,Shelf Display,मालाची मांडणी,display;shelf arrangement,मांडणी;डिस्प्ले;display,technical
+upselling_basics,Selling Skills,विक्री कौशल्य,upselling;convincing customers,विक्री;sales;vikri,technical
+handling_complaints,Handling Complaints,तक्रार हाताळणे,angry customer;returns and refunds,तक्रार;रिफंड;taar,technical
+digital_payments,Digital Payments,डिजिटल पेमेंट,upi;qr code payment;phonepe,यूपीआय;क्यूआर;upi,technical
