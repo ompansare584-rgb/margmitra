@@ -22,3 +22,7 @@ Nothing yet. Every URL, course, institute and scheme added later with verified=f
 - [ ] Run `.\start.ps1`, open http://localhost:5173 on laptop AND phone (same Wi-Fi, use laptop IP:5173) and click through everything once. Send me screenshots of anything ugly or broken.
 - [ ] Marathi UI text in src/i18n/mr.json read by a Marathi speaker.
 - [ ] Try on a real student/friend; note where they get stuck.
+
+## Phase 5 checks (user)
+- [ ] Click through a plan on laptop and phone; tell me if wording/steps feel wrong for an ITI student.
+- [ ] Marathi plan text read by a Marathi speaker (keys task*, week*, plan* in mr.json).

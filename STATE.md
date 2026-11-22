@@ -46,3 +46,11 @@ Project: MargMitra (मार्गमित्र), Seva First Innovation Chall
 - Quiz rule: a tested skill's level = quiz result (0-3), replacing the self-rating. 0/3 correct = level 0.
 - Skills without questions (only 30 have) keep the self-rating.
 - Next: Phase 5 (8-week plan + checkpoints).
+
+## Phase 5 - 8-week plan + checkpoints (done)
+- lib/plan.js: weeks 1-6 learn (top 12 skill gaps, max 2 per week, spare weeks to biggest gaps), week 7 practice on a real task, week 8 review. Pure/deterministic; 7 unit tests (22 JS tests total).
+- components/Plan.jsx: pick 3/5/8 hours per week, tick tasks, progress %, "fit now vs at start", per-skill 3-question checkpoint (updates the skill level), resource links, "later" skills list. Plan saved in the browser (localStorage). One plan at a time.
+- Reached from a career's detail page ("Make my 8-week plan") and "My plan" on results.
+- Tested in browser: plan creation, progress, checkpoint, persistence across reload, Marathi.
+- Plan text is a generic template; no invented course content or durations.
+- Next: Phase 6 (officer dashboard).

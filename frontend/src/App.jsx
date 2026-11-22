@@ -8,6 +8,7 @@ import Profile from './components/Profile.jsx'
 import Skills from './components/Skills.jsx'
 import Quiz from './components/Quiz.jsx'
 import Results from './components/Results.jsx'
+import Plan from './components/Plan.jsx'
 
 const STEPS = ['profile', 'skills', 'quiz', 'results']
 const EMPTY_PROFILE = { education: '', district: '', age_band: '', interests: [] }
@@ -17,6 +18,8 @@ export default function App() {
   const [screen, setScreen] = useState('welcome')
   const [profile, setProfile] = usePersisted('profile', EMPTY_PROFILE)
   const [levels, setLevels] = usePersisted('levels', {})
+  const [plan, setPlan] = usePersisted('plan', null)
+  const [planCareer, setPlanCareer] = useState(null)
   const [seed] = usePersisted('seed', String(Math.random()))
   const [backend, setBackend] = useState('checking')
   const t = useMemo(() => makeT(lang), [lang])
@@ -33,6 +36,7 @@ export default function App() {
   const restart = () => {
     setProfile(EMPTY_PROFILE)
     setLevels({})
+    setPlan(null)
     setScreen('welcome')
   }
   const stepIndex = STEPS.indexOf(screen) + 1
@@ -77,7 +81,10 @@ export default function App() {
           <Quiz t={t} lang={lang} levels={levels} setLevels={setLevels} seed={seed} onBack={() => setScreen('skills')} onDone={() => setScreen('results')} />
         )}
         {screen === 'results' && (
-          <Results t={t} lang={lang} profile={profile} levels={levels} onBack={() => setScreen('skills')} onRestart={restart} />
+          <Results t={t} lang={lang} profile={profile} levels={levels} hasPlan={!!plan} onPlan={(id) => { setPlanCareer(id); setScreen('plan') }} onBack={() => setScreen('skills')} onRestart={restart} />
+        )}
+        {screen === 'plan' && (
+          <Plan t={t} lang={lang} profile={profile} levels={levels} setLevels={setLevels} plan={plan} setPlan={setPlan} careerId={planCareer} seed={seed} onBack={() => setScreen('results')} />
         )}
       </div>
 

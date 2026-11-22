@@ -7,7 +7,7 @@ import { Bar, Button, Card } from './ui.jsx'
 
 const skillById = Object.fromEntries(data.skills.map((s) => [s.id, s]))
 
-function CareerDetail({ t, lang, result, levels, onBack }) {
+function CareerDetail({ t, lang, result, levels, onBack, onPlan }) {
   const { career, fit, gaps } = result
   return (
     <div className="space-y-4">
@@ -16,6 +16,7 @@ function CareerDetail({ t, lang, result, levels, onBack }) {
         <h2 className="text-xl font-semibold text-brand-900">{pick(career, 'name', lang)}</h2>
         <p className="mt-1 text-2xl font-semibold text-saffron">{fit}% {t('fit')}</p>
         <Bar value={fit} />
+        <Button variant="accent" className="mt-3 w-full" onClick={() => onPlan(career.id)}>{t('makePlan')}</Button>
         <h3 className="mt-4 font-semibold">{t('careerAbout')}</h3>
         <p className="text-gray-700">{pick(career, 'description', lang)}</p>
       </Card>
@@ -149,7 +150,7 @@ function Share({ t, ranked, profile, lang }) {
   )
 }
 
-export default function Results({ t, lang, profile, levels, onRestart, onBack }) {
+export default function Results({ t, lang, profile, levels, hasPlan, onPlan, onRestart, onBack }) {
   const ranked = useMemo(
     () => rankCareers(data, { education: profile.education, levels, interests: profile.interests }),
     [profile.education, profile.interests, levels],
@@ -158,7 +159,7 @@ export default function Results({ t, lang, profile, levels, onRestart, onBack })
   const [openId, setOpenId] = useState(null)
 
   const open = ranked.find((r) => r.career.id === openId)
-  if (open) return <CareerDetail t={t} lang={lang} result={open} levels={levels} onBack={() => setOpenId(null)} />
+  if (open) return <CareerDetail t={t} lang={lang} result={open} levels={levels} onBack={() => setOpenId(null)} onPlan={onPlan} />
 
   const shown = all ? ranked : ranked.slice(0, 5)
   return (
@@ -189,6 +190,8 @@ export default function Results({ t, lang, profile, levels, onRestart, onBack })
       {ranked.length > 5 && (
         <Button variant="link" onClick={() => setAll(!all)}>{all ? t('showTop') : t('showAll')}</Button>
       )}
+
+      {hasPlan && <Button variant="accent" className="w-full" onClick={() => onPlan(null)}>{t('myPlan')}</Button>}
 
       <Share t={t} ranked={ranked} profile={profile} lang={lang} />
 
