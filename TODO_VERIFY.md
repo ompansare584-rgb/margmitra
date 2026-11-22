@@ -8,3 +8,7 @@ Nothing yet. Every URL, course, institute and scheme added later with verified=f
 - [ ] Replace the 60 placeholder resources with exact course links, set verified=true
 - [ ] Open the 4 scheme links, confirm they work, set verified=true only after checking
 - [ ] Add real Pune institutes to institutes.csv (name, type, district, city, trades_or_courses, contact_url, verified)
+
+## Phase 2 wording check (user)
+- [ ] Form/deck: do not claim a trained AI/ML model reads free text. Use: "Free-text answers in Marathi or English are matched to skills using language-aware text matching; the student confirms every match. Career scores are calculated by transparent rules, not a black box."
+- [ ] Matcher accuracy (81% precision, 100% recall) is on 30 phrases I wrote. Don't quote it as a study result. Test with 10 real phrases from friends.

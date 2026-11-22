@@ -1,8 +1,8 @@
 ﻿id,name_en,name_mr,aliases_en,aliases_mr,category
-english_basic,Basic English,बेसिक इंग्रजी,english speaking;english reading,इंग्रजी बोलणे;इंग्रजी वाचणे;english bolne,foundation
+english_basic,Basic English,बेसिक इंग्रजी,speak english;english speaking;english reading,इंग्रजी बोलणे;इंग्रजी वाचणे;english bolne,foundation
 digital_literacy,Digital Literacy,डिजिटल साक्षरता,smartphone use;internet basics;online forms,मोबाईल वापर;ऑनलाइन फॉर्म;computer chalvne,foundation
 basic_maths,Basic Maths,बेसिक गणित,arithmetic;percentage;calculation,गणित;बेरीज वजाबाकी;ganit,foundation
-communication,Communication,संवाद कौशल्य,speaking;talking to people,बोलणे;संवाद;sanvad,foundation
+communication,Communication,संवाद कौशल्य,speaking;talk to customers;talk to people,बोलणे;संवाद;sanvad,foundation
 problem_solving,Problem Solving,समस्या सोडवणे,logical thinking;finding solutions,अडचण सोडवणे;तर्क;samasya sodvne,foundation
 teamwork,Teamwork,सांघिक काम,working in a team;cooperation,टीमने काम;सहकार्य;team madhe kaam,soft
 time_management,Time Management,वेळेचे नियोजन,punctuality;meeting deadlines,वेळ पाळणे;वेळेचे नियोजन;vel palne,soft
@@ -12,11 +12,11 @@ leadership_basic,Basic Leadership,नेतृत्व कौशल्य,leadi
 basic_electricity,Basic Electricity,विजेची मूलभूत माहिती,voltage current resistance;ohm's law,व्होल्टेज करंट;वीज;vij;ohm cha niyam,technical
 electrical_safety,Electrical Safety,विद्युत सुरक्षा,shock prevention;lockout tagout;safe working,विजेचा धक्का टाळणे;सुरक्षा;vij suraksha,technical
 wiring,Wiring,वायरिंग,house wiring;wire joints,तार जोडणी;वायरिंग;taar jodni,technical
-multimeter_use,Using a Multimeter,मल्टीमीटर वापरणे,testing voltage;continuity test;measure current,मल्टीमीटर;व्होल्टेज तपासणे;multimeter vaparne,technical
+multimeter_use,Using a Multimeter,मल्टीमीटर वापरणे,multimeter;testing voltage;continuity test;measure current,मल्टीमीटर;व्होल्टेज तपासणे;multimeter vaparne,technical
 circuit_diagrams,Reading Circuit Diagrams,सर्किट डायग्राम वाचणे,schematics;wiring diagram,सर्किट आकृती;नकाशा वाचणे;circuit diagram vachne,technical
 earthing,Earthing,अर्थिंग,grounding;earth pit,अर्थिंग;जमिनीशी जोडणी;earthing karne,technical
 mcb_db_boards,MCB and DB Boards,एमसीबी व डीबी बोर्ड,distribution board;circuit breaker;fuse,एमसीबी;फ्यूज;db board,technical
-domestic_wiring,Domestic Wiring,घरगुती वायरिंग,home wiring;switch board fitting,घराची वायरिंग;स्विच बोर्ड;ghar wiring,technical
+domestic_wiring,Domestic Wiring,घरगुती वायरिंग,home wiring;house wiring;switch board fitting,घराची वायरिंग;स्विच बोर्ड;ghar wiring,technical
 motor_basics,Electric Motor Basics,इलेक्ट्रिक मोटर मूलभूत,pump motor;induction motor;motor repair,मोटर;पंप मोटर;motor durusti,technical
 motor_winding,Motor Winding,मोटर वाइंडिंग,rewinding;coil winding,वाइंडिंग;कॉइल गुंडाळणे;motor winding,technical
 transformer_basics,Transformer Basics,ट्रान्सफॉर्मर मूलभूत,step up step down;transformer maintenance,ट्रान्सफॉर्मर;transformer,technical
@@ -60,7 +60,7 @@ brake_systems,Brake Systems,ब्रेक यंत्रणा,disc brake;dru
 suspension_steering,Suspension and Steering,सस्पेन्शन व स्टिअरिंग,shock absorber;wheel alignment,सस्पेन्शन;स्टिअरिंग;suspension,technical
 transmission_clutch,Transmission and Clutch,ट्रान्समिशन व क्लच,gearbox;clutch plate,क्लच;गिअरबॉक्स;clutch,technical
 auto_electrical,Automobile Electrical,वाहन विद्युत यंत्रणा,battery;alternator;self starter,बॅटरी;सेल्फ स्टार्टर;gadi battery,technical
-vehicle_servicing,Vehicle Servicing,वाहन सर्व्हिसिंग,periodic service;oil filter,सर्व्हिसिंग;गाडी सर्व्हिस;servicing,technical
+vehicle_servicing,Vehicle Servicing,वाहन सर्व्हिसिंग,periodic service;oil filter;change engine oil;oil change;service motorcycle,सर्व्हिसिंग;गाडी सर्व्हिस;servicing,technical
 tyre_wheel_care,Tyre and Wheel Care,टायर व चाक देखभाल,puncture repair;wheel balancing,टायर;पंक्चर;tyre,technical
 fuel_systems,Fuel Systems,इंधन यंत्रणा,fuel injection;carburettor,इंधन;कार्बोरेटर;fuel system,technical
 vehicle_diagnostics,Vehicle Diagnostics,वाहन तपासणी,obd scanner;fault codes,डायग्नोस्टिक;स्कॅनर;vehicle checkup,technical
@@ -88,7 +88,7 @@ office_etiquette,Office Etiquette,ऑफिस शिष्टाचार,profe
 html_css,HTML and CSS,एचटीएमएल व सीएसएस,web page design;styling;html,वेबपेज;html css,technical
 javascript_basics,JavaScript Basics,जावास्क्रिप्ट मूलभूत,js;dom;web scripting,जावास्क्रिप्ट;javascript,technical
 responsive_design,Responsive Design,रिस्पॉन्सिव्ह डिझाइन,mobile friendly;media queries;flexbox,मोबाईल फ्रेंडली;responsive,technical
-git_basics,Git and GitHub,गिट व गिटहब,version control;github;commit,गिट;github,technical
+git_basics,Git and GitHub,गिट व गिटहब,git;version control;github;commit,गिट;github,technical
 react_basics,React Basics,रिअॅक्ट मूलभूत,react js;components;hooks,रिअॅक्ट;react,technical
 apis_basics,APIs Basics,एपीआय मूलभूत,rest api;fetch;json,एपीआय;api,technical
 databases_sql,Databases and SQL,डेटाबेस व एसक्यूएल,mysql;queries;tables,डेटाबेस;sql,technical
@@ -96,10 +96,10 @@ python_basics,Python Basics,पायथन मूलभूत,python programmin
 debugging,Debugging,डीबगिंग,fixing code errors;console errors,चुका शोधणे;debugging,technical
 web_hosting_basics,Web Hosting Basics,वेब होस्टिंग मूलभूत,deploy website;domain;vercel,वेबसाइट अपलोड;hosting,technical
 troubleshooting_pc,PC Troubleshooting,पीसी समस्या निवारण,computer not starting;slow computer,कॉम्प्युटर बंद;संगणक दुरुस्ती;computer dusti,technical
-os_installation,Operating System Installation,ओएस इन्स्टॉलेशन,windows install;format computer,विंडोज टाकणे;format karne,technical
+os_installation,Operating System Installation,ओएस इन्स्टॉलेशन,windows install;install windows;installing windows;format computer,विंडोज टाकणे;format karne,technical
 hardware_assembly,Computer Hardware Assembly,कॉम्प्युटर हार्डवेअर जोडणी,ram;hard disk;motherboard,रॅम;हार्डडिस्क;pc assemble,technical
 networking_basics,Networking Basics,नेटवर्किंग मूलभूत,wifi;router;ip address;lan,वायफाय;राउटर;network,technical
-printer_support,Printer Support,प्रिंटर सपोर्ट,printer repair;scanner,प्रिंटर;printer dusti,technical
+printer_support,Printer Support,प्रिंटर सपोर्ट,printer;printer repair;scanner,प्रिंटर;printer dusti,technical
 ticketing_basics,Ticketing Basics,तिकीट प्रणाली मूलभूत,helpdesk ticket;issue tracking,तक्रार नोंद;ticket,technical
 remote_support,Remote Support,रिमोट सपोर्ट,anydesk;remote desktop;teamviewer,रिमोट;anydesk,technical
 malware_safety,Malware and Virus Safety,व्हायरस सुरक्षा,antivirus;phishing;cyber safety,व्हायरस;अँटीव्हायरस;virus,technical
@@ -120,5 +120,5 @@ product_knowledge,Product Knowledge,उत्पादन माहिती,kno
 inventory_stock,Inventory and Stock,साठा व्यवस्थापन,stock count;stock register,माल;स्टॉक;stock,technical
 visual_merchandising,Shelf Display,मालाची मांडणी,display;shelf arrangement,मांडणी;डिस्प्ले;display,technical
 upselling_basics,Selling Skills,विक्री कौशल्य,upselling;convincing customers,विक्री;sales;vikri,technical
-handling_complaints,Handling Complaints,तक्रार हाताळणे,angry customer;returns and refunds,तक्रार;रिफंड;taar,technical
+handling_complaints,Handling Complaints,तक्रार हाताळणे,angry customer;returns and refunds,तक्रार;रिफंड;takrar,technical
 digital_payments,Digital Payments,डिजिटल पेमेंट,upi;qr code payment;phonepe,यूपीआय;क्यूआर;upi,technical
