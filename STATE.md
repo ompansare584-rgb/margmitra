@@ -30,3 +30,11 @@ Project: MargMitra (मार्गमित्र), Seva First Innovation Chall
 - Matcher eval on 30 self-written phrases (eval/matcher_eval.json): precision 81%, recall 100%. Own small set, tuned while building - NOT independent. Known weak spot: similar-spelling false matches (e.g. billing/milling); confirm step handles it.
 - WORDING: deck/form must say "language-aware text matching" not "AI/ML model". See TODO_VERIFY.md.
 - Next: Phase 3 (API).
+
+## Phase 3 - API (done, route tests not run in my sandbox)
+- backend: models.py (strict, no personal fields, consent + under-18 parental consent), db.py (SQLite, delete token stored hashed), stats.py (min group 5, small groups hidden), refs.py + ref_ids.json (written by build_data.mjs), main.py (POST /sessions, DELETE /sessions/{id}, GET /officer/stats, rate limit, CORS limited).
+- DEVIATION: no /understand endpoint. Free-text matching runs in the browser (Phase 2), so nothing typed is sent to a server.
+- data/districts.csv (36 districts, EN+MR) -> data.json.districts.
+- frontend/src/api.js: saveSession, deleteSession, getOfficerStats.
+- Tests: 12 core tests pass (python -m unittest); 1 route test needs fastapi+httpx, skipped here.
+- Next: Phase 4 (student UI).

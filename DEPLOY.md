@@ -62,3 +62,9 @@ Changing VITE_API_URL needs a new   vercel --prod   because Vite bakes it in at 
 
 ## Limits to remember
 - Render free: 512 MB memory, sleeps when idle, files on its disk are lost on restart. Student data must go to a free hosted database (Neon or Supabase) in the later phases, not to local files.
+
+## Phase 3 additions (backend settings on Render -> Environment)
+- `OFFICER_KEY` = a long random password for the officer dashboard (without it /officer/stats is switched off).
+- `MIN_GROUP` = 5 (optional; values below 5 are ignored).
+- `DB_PATH` (optional). Render free disk is ephemeral: saved sessions disappear on restart/redeploy. Fine for a demo; for real data move to Neon/Supabase (Phase 7).
+- Run backend tests: `.venv\Scripts\python -m pip install -r backend\requirements-dev.txt` then `cd backend` and `..\.venv\Scripts\python -m unittest discover -s tests -v`

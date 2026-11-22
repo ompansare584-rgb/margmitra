@@ -12,3 +12,8 @@ Nothing yet. Every URL, course, institute and scheme added later with verified=f
 ## Phase 2 wording check (user)
 - [ ] Form/deck: do not claim a trained AI/ML model reads free text. Use: "Free-text answers in Marathi or English are matched to skills using language-aware text matching; the student confirms every match. Career scores are calculated by transparent rules, not a black box."
 - [ ] Matcher accuracy (81% precision, 100% recall) is on 30 phrases I wrote. Don't quote it as a study result. Test with 10 real phrases from friends.
+
+## Phase 3 checks (user)
+- [ ] Run backend tests on your PC (command in DEPLOY.md) - the route test must pass; tell me if it fails.
+- [ ] District names/Marathi spellings in data/districts.csv (Ahilyanagar, Chhatrapati Sambhajinagar, Dharashiv are the new official names - confirm).
+- [ ] Privacy text for the app: lawyer/teacher review before real students use it (DPDP Act).

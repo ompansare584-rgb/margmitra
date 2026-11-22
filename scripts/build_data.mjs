@@ -28,6 +28,7 @@ const errors = [], warns = [];
 const err = m => errors.push(m), warn = m => warns.push(m);
 const list = s => (s ? s.split(";").map(x => x.trim()).filter(Boolean) : []);
 
+const districts = load("districts.csv");
 const skills = load("skills.csv"), careers = load("careers.csv"), cs = load("career_skills.csv"),
   questions = load("questions.csv"), resources = load("resources.csv"),
   institutes = load("institutes.csv"), schemes = load("schemes.csv");
@@ -78,7 +79,10 @@ if (unv(schemes)) warn(`${unv(schemes)} schemes not verified - check each offici
 if (!institutes.length) warn("institutes.csv is empty - add real Pune institutes from official lists");
 
 const rank = { class10: 1, iti: 2, class12: 2, diploma: 3, degree: 4 };
+uniq(districts, "district");
+if (districts.length !== 36) warn(`districts: expected 36, found ${districts.length}`);
 const data = {
+  districts,
   generated_at: new Date().toISOString(),
   education_rank: rank,
   skills: skills.map(s => ({ ...s, aliases_en: list(s.aliases_en), aliases_mr: list(s.aliases_mr) })),
@@ -95,4 +99,7 @@ warns.forEach(w => console.log("WARN  " + w));
 if (errors.length) { errors.forEach(e => console.log("ERROR " + e)); console.log(`\n${errors.length} error(s). data.json NOT written.`); process.exit(1); }
 fs.mkdirSync(path.join(root, "frontend/src/data"), { recursive: true });
 fs.writeFileSync(path.join(root, "frontend/src/data/data.json"), JSON.stringify(data));
-console.log("OK - wrote frontend/src/data/data.json");
+const tags = [...new Set(careers.flatMap(c => list(c.interest_tags)))].sort();
+fs.writeFileSync(path.join(root, "backend/ref_ids.json"), JSON.stringify({
+  skills: [...skillIds], careers: [...careerIds], districts: districts.map(d => d.id), interest_tags: tags }, null, 1));
+console.log("OK - wrote backend/ref_ids.json and frontend/src/data/data.json");
