@@ -41,6 +41,7 @@ export default function App() {
     setScreen('welcome')
   }
   const stepIndex = STEPS.indexOf(screen) + 1
+  const wide = screen === 'results' || screen === 'officer' // these screens use two columns on desktop
 
   const statusText = { checking: t('backendChecking'), online: t('backendOnline'), offline: t('backendOffline') }[backend]
   const statusColour = {
@@ -50,7 +51,7 @@ export default function App() {
   }[backend]
 
   return (
-    <main className="mx-auto max-w-md px-4 py-6" lang={lang}>
+    <main className="mx-auto w-full max-w-md px-4 py-6 md:max-w-5xl md:px-8 md:py-10" lang={lang}>
       <header className="flex items-center justify-between gap-2">
         <h1 className="text-2xl font-semibold text-brand-900">{t('appName')}</h1>
         <div className="flex gap-1 rounded-full bg-white p-1 shadow-sm">
@@ -68,7 +69,7 @@ export default function App() {
         </div>
       </header>
 
-      <div className="mt-4">
+      <div className={`mt-4 ${wide ? '' : 'mx-auto w-full md:max-w-2xl'}`}>
         {stepIndex > 0 && <Progress step={stepIndex} total={STEPS.length} label={t('stepOf', { i: stepIndex, n: STEPS.length })} />}
 
         {screen === 'welcome' && <Welcome t={t} onStart={() => setScreen('profile')} />}

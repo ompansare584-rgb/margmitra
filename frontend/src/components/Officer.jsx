@@ -128,10 +128,12 @@ export default function Officer({ t, lang, onBack }) {
               <p className="text-3xl font-semibold text-saffron">{stats.average_fit}%</p>
             </Card>
           </div>
+          <div className="grid gap-4 md:grid-cols-2">
           <List title={t('officerGaps')} items={stats.top_skill_gaps} label={(k) => pick(skillById[k] || { name_en: k }, 'name', lang)} />
           <List title={t('officerCareers')} items={stats.top_careers} label={(k) => pick(careerById[k] || { name_en: k }, 'name', lang)} />
           <List title={t('officerEducation')} items={stats.by_education} label={(k) => t(`edu_${k}`)} />
           <List title={t('officerDistricts')} items={stats.by_district} label={(k) => pick(districtById[k] || { name_en: k }, 'name', lang)} />
+          </div>
           
           <Button variant="secondary" onClick={download}>{t('officerCsv')}</Button>
         </>

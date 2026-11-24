@@ -10,7 +10,7 @@ const skillById = Object.fromEntries(data.skills.map((s) => [s.id, s]))
 function CareerDetail({ t, lang, result, levels, onBack, onPlan }) {
   const { career, fit, gaps } = result
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 md:mx-auto md:max-w-3xl">
       <Button variant="secondary" onClick={onBack}>{t('backToResults')}</Button>
       <Card>
         <h2 className="text-xl font-semibold text-brand-900">{pick(career, 'name', lang)}</h2>
@@ -170,6 +170,7 @@ export default function Results({ t, lang, profile, levels, hasPlan, onPlan, onR
         {ranked.length === 0 && <p className="mt-3">{t('noCareers')}</p>}
       </Card>
 
+      <div className="grid gap-4 md:grid-cols-2">
       {shown.map((r) => (
         <Card key={r.career.id}>
           <div data-testid="career">
@@ -187,13 +188,16 @@ export default function Results({ t, lang, profile, levels, hasPlan, onPlan, onR
           </div>
         </Card>
       ))}
+      </div>
       {ranked.length > 5 && (
         <Button variant="link" onClick={() => setAll(!all)}>{all ? t('showTop') : t('showAll')}</Button>
       )}
 
       {hasPlan && <Button variant="accent" className="w-full" onClick={() => onPlan(null)}>{t('myPlan')}</Button>}
 
-      <Share t={t} ranked={ranked} profile={profile} lang={lang} />
+      <div className="md:max-w-2xl">
+        <Share t={t} ranked={ranked} profile={profile} lang={lang} />
+      </div>
 
       <div className="flex gap-3">
         <Button variant="secondary" onClick={onBack}>{t('back')}</Button>
