@@ -9,13 +9,14 @@ import Skills from './components/Skills.jsx'
 import Quiz from './components/Quiz.jsx'
 import Results from './components/Results.jsx'
 import Plan from './components/Plan.jsx'
+import Officer from './components/Officer.jsx'
 
 const STEPS = ['profile', 'skills', 'quiz', 'results']
 const EMPTY_PROFILE = { education: '', district: '', age_band: '', interests: [] }
 
 export default function App() {
   const [lang, setLang] = usePersisted('lang', 'mr')
-  const [screen, setScreen] = useState('welcome')
+  const [screen, setScreen] = useState(() => (window.location.hash === '#officer' ? 'officer' : 'welcome'))
   const [profile, setProfile] = usePersisted('profile', EMPTY_PROFILE)
   const [levels, setLevels] = usePersisted('levels', {})
   const [plan, setPlan] = usePersisted('plan', null)
@@ -83,12 +84,21 @@ export default function App() {
         {screen === 'results' && (
           <Results t={t} lang={lang} profile={profile} levels={levels} hasPlan={!!plan} onPlan={(id) => { setPlanCareer(id); setScreen('plan') }} onBack={() => setScreen('skills')} onRestart={restart} />
         )}
+        {screen === 'officer' && (
+          <Officer t={t} lang={lang} onBack={() => { window.location.hash = ''; setScreen('welcome') }} />
+        )}
         {screen === 'plan' && (
           <Plan t={t} lang={lang} profile={profile} levels={levels} setLevels={setLevels} plan={plan} setPlan={setPlan} careerId={planCareer} seed={seed} onBack={() => setScreen('results')} />
         )}
       </div>
 
-      <p className={`mt-6 inline-block rounded-full px-4 py-2 text-sm ${statusColour}`}>{statusText}</p>
+      {screen !== 'officer' && (
+        <p className="mt-4">
+          <a href="#officer" onClick={() => setScreen('officer')} className="inline-block min-h-11 py-2 text-sm text-brand-700 underline">{t('officerLink')}</a>
+        </p>
+      )}
+
+      <p className={`mt-4 inline-block rounded-full px-4 py-2 text-sm ${statusColour}`}>{statusText}</p>
     </main>
   )
 }

@@ -54,3 +54,9 @@ Project: MargMitra (मार्गमित्र), Seva First Innovation Chall
 - Tested in browser: plan creation, progress, checkpoint, persistence across reload, Marathi.
 - Plan text is a generic template; no invented course content or durations.
 - Next: Phase 6 (officer dashboard).
+
+## Phases 6-8 (done)
+- Phase 6: Officer dashboard (`/#officer`): key login, district filter, totals/gaps/careers/education/districts, CSV export, orange SAMPLE DATA ribbon for invented demo numbers, groups < 5 hidden.
+- Phase 7: render.yaml, Postgres support via DATABASE_URL (psycopg, written but NOT run in sandbox), scripts/wake.ps1, DEPLOY.md (steps, smoke test, wake-up routine).
+- Phase 8: README.md, docs/demo-script.md (90-second demo + 5-minute pitch), final TODO_VERIFY.md.
+- Tests: 31 JS tests + 12 Python core tests pass; browser flow, plan, checkpoint and officer screen tested at phone width. Not run here: API route tests (no FastAPI), Postgres path, Vite/Tailwind build, deployed site.

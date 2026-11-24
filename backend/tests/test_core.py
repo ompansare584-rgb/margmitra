@@ -42,7 +42,7 @@ class Store(unittest.TestCase):
         self.assertFalse(db.delete_session(self.conn, sid, tok))
     def test_token_not_stored_plain(self):
         sid, tok = db.create_session(self.conn, SessionIn(**payload()))
-        row = self.conn.execute("SELECT * FROM sessions").fetchone()
+        row = self.conn.query("SELECT * FROM sessions")[0]
         self.assertNotIn(tok, [str(v) for v in tuple(row)])
     def test_stats_suppression(self):
         for _ in range(4): db.create_session(self.conn, SessionIn(**payload()))

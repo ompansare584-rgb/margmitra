@@ -13,7 +13,7 @@ import stats
 from models import SessionIn, check_refs
 from refs import load_refs
 
-DB_PATH = os.getenv("DB_PATH", str(Path(__file__).with_name("margmitra.db")))
+DB_TARGET = os.getenv("DATABASE_URL") or os.getenv("DB_PATH", str(Path(__file__).with_name("margmitra.db")))
 REFS = load_refs()
 conn = None
 
@@ -21,7 +21,7 @@ conn = None
 @asynccontextmanager
 async def lifespan(app):
     global conn
-    conn = db.connect(DB_PATH)
+    conn = db.connect(DB_TARGET)
     yield
     conn.close()
 

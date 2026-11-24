@@ -13,12 +13,12 @@ def _keep(counter: Counter, k: int, top: int = 10):
     return [{"key": key, "count": n} for key, n in counter.most_common() if n >= k][:top]
 
 
-def aggregate(conn, district: str | None = None, min_group: int | None = None) -> dict:
+def aggregate(store, district: str | None = None, min_group: int | None = None) -> dict:
     k = effective_min(min_group)
     q, args = "SELECT district, education, top_career_id, fit, skill_gaps FROM sessions", ()
     if district:
         q, args = q + " WHERE district=?", (district,)
-    rows = conn.execute(q, args).fetchall()
+    rows = store.query(q, args)
     n = len(rows)
     base = {"min_group": k, "district": district, "source": "student sessions stored by this server"}
     if n < k:

@@ -1,0 +1,19 @@
+# Optional: Render "Blueprint". You can also create the service by hand (see DEPLOY.md).
+services:
+  - type: web
+    name: margmitra-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ALLOWED_ORIGINS   # your Vercel URL, e.g. https://margmitra.vercel.app (no trailing slash)
+        sync: false
+      - key: OFFICER_KEY       # long random password for the officer page
+        sync: false
+      - key: DATABASE_URL      # Neon/Supabase Postgres URL (optional; without it data is lost on restart)
+        sync: false

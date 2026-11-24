@@ -26,3 +26,12 @@ Nothing yet. Every URL, course, institute and scheme added later with verified=f
 ## Phase 5 checks (user)
 - [ ] Click through a plan on laptop and phone; tell me if wording/steps feel wrong for an ITI student.
 - [ ] Marathi plan text read by a Marathi speaker (keys task*, week*, plan* in mr.json).
+
+## FINAL checklist before submission / demo (you)
+- [ ] `.\setup.ps1`, `.\start.ps1`, click the whole flow on laptop + phone. Run the backend tests (route test must pass).
+- [ ] Deploy per DEPLOY.md; do the 10-point smoke test; set OFFICER_KEY; run scripts\wake.ps1 before any demo.
+- [ ] Deck/form: remove every claim the prototype does not support: voice input, "AI maps text", MiniLM, PWA, "nearby ITIs", own survey (120 students / 82%), "18 minutes measured in our test", "verified dataset".
+- [ ] Slide 4 stage tick: "Working Prototype" only once the deployed site works; otherwise keep "Idea" / "Proof of Concept".
+- [ ] Marathi text (mr.json, data CSVs) and quiz answers reviewed by a human.
+- [ ] Replace placeholder resource links, check scheme links, add real Pune institutes.
+- [ ] Privacy text reviewed (DPDP Act) before real students use it.
